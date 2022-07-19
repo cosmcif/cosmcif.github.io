@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="../icon/melon.png" type="image/png" />
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" rel="stylesheet">
+    <title>how to contact me</title>
+    <link href="../css/stilecontatti.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="titolo"><h1>Sofia's projects</h1></div>
+    <div class="intro">
+      <p><a href="../index.html">home</a> - <a href="currently.html">work in progress</a> - <a href="whoami.html">whoami</a> - <a href="#">contacts</a></p>
+    </div>
+    <div class="progetti">
+      <h2>Contacts</h2>
+      <div class="wrapper">
+        <div class="contactform">
+          <form action="../php/messaggio.php" method="post" class="formcss">
+            <div class="inomiecognomi">
+              <h3>Name</h3>
+              <input type="text" name="nome" placeholder="How can I call you?" required=""><br>
+            </div>
+            <div class="email">
+              <h3>E-Mail</h3>
+              <input type="text" name="mail" placeholder="email@email.com" required=""><br>
+            </div>
+            <div class="messaggio">
+              <h3>Subject</h3>
+              <textarea id="subject" name="subject" placeholder="Your message goes here.." style="height:200px" required=""></textarea>
+            </div>
+            <div class="bottone">
+              <input class="tooltip" type="submit" name="invio" value="Send!">
+            </div> 
+          </form>
+        </div>
+        <div class="contatti">
+          <p><img src="../icon/iconmonstr-linkedin-3-32.png"> <a class="brown" href="https://www.linkedin.com/in/sofiadatri/" target="_blank">LINKEDIN</a></p>
+          <p><img src="../icon/iconmonstr-youtube-8-32.png"> <a class="brown" href="sorry.html">YOUTUBE</a></p>
+          <p><img src="../icon/iconmonstr-email-10-32.png"> <a class="brown" href="mailto:datrisof@gmail.com">MY EMAIL</a></p>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p>Made by <a id="light" href="mailto:datrisof@gmail.com">Sofia d'Atri</a></p>
+      <p>All rights reserved.</p>
+    </footer>
+  </body>
+</html>
