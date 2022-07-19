@@ -19,10 +19,10 @@ body {
 }
 
 .proj{
-  background-color: rgba(193, 219, 179);
+  background-color: #1B2CC1;
   height: 45%;
   overflow: hidden;
-  box-shadow: 2px 2px 2px #4e6e5dff;
+  box-shadow: 2px 2px 2px #7692FF;
   transition: 0.1s all ease-in-out;
   margin-bottom: 36px;
   border-radius: 8px;
@@ -39,7 +39,6 @@ a{
 
 a:link, a:visited {
   color: #fa66bf;
-  text-shadow: 1px 1px 0 #fdc0e5;
 }
 
 .disclaimer{
@@ -73,31 +72,28 @@ a:link, a:visited {
 }
 
 @media only screen and (min-width: 290px){
-  h1{
-  font-family: 'Ubuntu', sans-serif;
-  color: #fdc0e5;
-  text-shadow: 5px 5px 0 #fa66bf;
-  text-align: center;
+  h1 {
+  	font-family: 'Ubuntu', sans-serif;
+  	color: #fa66bf;
+  	text-align: center;
 	vertical-align: middle;
-  font-weight: bold;
+ 	font-weight: bold;
   }
 
   h2{
   font-family: 'Ubuntu', sans-serif;
-  color: #fa66bf;
-  text-shadow: 3px 3px 0 #fdc0e5;
+  color: #FDC0E5;
   text-align: left;
 	vertical-align: left;
   font-weight: bold;
   }
 
-  h3{
-    font-family: 'Ubuntu', sans-serif;
-    color: #fdc0e5;
-    text-shadow: 2px 2px 0 #fa66bf;
-    text-align: left;
-	  vertical-align: left;
-    font-weight: bold;
+  h3 {
+    	font-family: 'Ubuntu', sans-serif;
+    	color: #fdc0e5;
+    	text-align: left;
+	vertical-align: left;
+    	font-weight: bold;
   }
 
   p{
