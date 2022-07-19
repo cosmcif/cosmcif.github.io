@@ -1,6 +1,6 @@
 body {
   margin: 10 auto;
-  background-color: #ee7674ff;
+  background-color: #171717ff;
 }
 
 .wrapper {
@@ -48,7 +48,7 @@ a:link, a:visited {
 }
 
 .brown:link, .brown:visited {
-  color: #472c1bff;
+  color: #fa66bf;
   text-shadow: 0 0 0 #472c1bff;
 }
 
