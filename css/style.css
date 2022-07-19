@@ -38,7 +38,10 @@ a{
 
 a:link, a:visited {
   	color: #62043C;
-	text-shadow: 0 2px 0 #FCC5E5;
+}
+
+.light {
+	color: #FEEBF6;
 }
 
 .disclaimer{
