@@ -36,13 +36,15 @@ a{
   text-decoration: none;
 }
 
+.light {
+	color: #FA66BF;
+}
+
 a:link, a:visited {
   	color: #62043C;
 }
 
-.light {
-	color: #FEEBF6;
-}
+
 
 .disclaimer{
   font-size: 18px;
