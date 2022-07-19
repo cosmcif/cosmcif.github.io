@@ -36,12 +36,12 @@ a{
   text-decoration: none;
 }
 
-#light {
-	color: #FA66BF;
+#dark {
+	color: #62043C;
 }
 
 a:link, a:visited {
-  	color: #62043C;
+  	color: #FA66BF;
 }
 
 
