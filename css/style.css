@@ -1,14 +1,14 @@
 body {
-  margin: 10 auto;
-  background-color: #171717ff;
+  	margin: 10 auto;
+	background-color: #171717ff;
 }
 
 .wrapper {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-content: space-between;
+ 	display: flex;
+ 	flex-direction: row;
+  	flex-wrap: wrap;
+  	justify-content: space-between;
+  	align-content: space-between;
 }
 
 .yt {
@@ -18,14 +18,13 @@ body {
 
 }
 
-.proj{
-  background-color: #1B2CC1;
-  height: 45%;
-  overflow: hidden;
-  box-shadow: 2px 2px 2px #7692FF;
-  transition: 0.1s all ease-in-out;
-  margin-bottom: 36px;
-  border-radius: 8px;
+.proj {
+  	background-color: #fa66bf;
+  	height: 45%;
+  	overflow: hidden;
+  	transition: 0.1s all ease-in-out;
+  	margin-bottom: 36px;
+  	border-radius: 8px;
 }
 
 .immagine{
@@ -48,7 +47,6 @@ a:link, a:visited {
 
 .brown:link, .brown:visited {
   color: #fa66bf;
-  text-shadow: 0 0 0 #fdc0e5;
 }
 
 .sory{
@@ -82,7 +80,7 @@ a:link, a:visited {
 
   h2{
   font-family: 'Ubuntu', sans-serif;
-  color: #FDC0E5;
+  color: #fa66bf;
   text-align: left;
 	vertical-align: left;
   font-weight: bold;
