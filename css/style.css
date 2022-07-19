@@ -19,7 +19,7 @@ body {
 }
 
 .proj {
-  	background-color: #fa66bf;
+  	background-color: #9D0661;
   	height: 45%;
   	overflow: hidden;
   	transition: 0.1s all ease-in-out;
@@ -37,7 +37,8 @@ a{
 }
 
 a:link, a:visited {
-  color: #fa66bf;
+  	color: #62043C;
+	text-shadow: 0 2px 0 #FCC5E5;
 }
 
 .disclaimer{
@@ -96,7 +97,7 @@ a:link, a:visited {
 
   p{
   font-family: 'Ubuntu', sans-serif;
-  color: #ffffff;
+  color: #FEEBF6;
   text-align: center;
 	vertical-align: middle;
   font-weight: bold;
@@ -105,7 +106,6 @@ a:link, a:visited {
   .intro{
   background-color: rgba(249, 181, 172, 0.5);
   margin: 0 auto 0 auto; 
-  text-shadow: 0 2px 0 #f9b5acff;
   }
 
   .progetti{
