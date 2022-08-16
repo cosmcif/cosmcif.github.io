@@ -1,0 +1,373 @@
+body {
+  margin: 10 auto;
+  background-color: #171717ff;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between + safe;
+  align-content: space-between;
+}
+
+a{
+  text-decoration: none;
+}
+
+#dark {
+	color: #62043C;
+}
+
+a:link, a:visited {
+  	color: #FA66BF;
+}
+
+.desc{
+  text-align: left;
+  font-size: 20px;
+}
+.disclaimer{
+  font-size: 18px;
+  text-align: left;
+}
+.brown:link, .brown:visited {
+  color: #472c1bff;
+  text-shadow: 0 0 0 #472c1bff;
+}
+
+input[type=text], select, textarea {
+  padding: 12px;
+  border: 1px solid #fa66bf;
+  border-radius: 4px;
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: none; /*Allow the user to vertically resize the textarea (not horizontally) */
+  background-color: #c1dbb3ff;
+}
+
+
+/*submit*/
+.tooltip {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 15px;
+  background-color: #c1dbb3ff;
+  color: #4e6e5dff;
+  padding: 20px 30px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+}
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 30%;
+  background-color: rgba(0,0,0,0.3);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  /*z-index: 1;*/
+  top: 110%;
+  left: 50%;
+  /*margin-left: -75px;*/
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  background-color: rgb(208, 157, 219);
+}
+
+.contatti{
+    text-align: left;
+}
+
+
+@media only screen and (min-width: 290px){
+  h1{
+  font-family: 'Ubuntu', sans-serif;
+  color: #c1dbb3ff;
+  text-shadow: 5px 5px 0 #4e6e5dff;
+  text-align: center;
+	vertical-align: middle;
+  font-weight: bold;
+  }
+
+  h2{
+  font-family: 'Ubuntu', sans-serif;
+  color: #4e6e5dff;
+  text-shadow: 3px 3px 0 #c1dbb3ff;
+  text-align: left;
+	vertical-align: left;
+  font-weight: bold;
+  }
+
+  h3{
+  font-family: 'Ubuntu', sans-serif;
+  color: #472c1bff;
+  text-shadow: 1px 1px 1px #c1dbb3ff;
+  text-align: left;
+	vertical-align: left;
+  font-weight: bold;
+  }
+
+  p{
+  font-family: 'Ubuntu', sans-serif;
+  color: #472c1bff;
+  text-align: center;
+	vertical-align: middle;
+  font-weight: bold;
+  }
+
+  .intro{
+  background-color: rgba(249, 181, 172, 0.5);
+  margin: 0 auto 0 auto; 
+  text-shadow: 0 2px 0 #f9b5acff;
+  }
+
+  .progetti{
+  margin: 0 auto 0 auto; 
+  }
+
+}
+
+@media only screen and (min-width: 290px) and (max-width: 550px) {
+
+  h1{
+  font-size: 50px;
+  }
+
+  h2{
+  font-size: 40px;
+  }
+
+  p{
+  font-size: 20px;
+  }
+
+  .intro{
+	padding: 12px;
+	width: 250px;
+  }
+
+  .progetti{
+	padding: 12px;
+	width: 250px;
+  }
+
+  .contatti{
+    flex-grow: 1;
+  }
+
+  .contactform{
+    flex-grow: 1;
+  }
+
+  input[type=text],select{
+    width: 100%;
+  }
+
+  textarea {
+    width: 100%;
+  }
+
+  .tooltip {
+    margin-left: 30%;
+  }
+}
+
+@media only screen and (min-width:551px) and (max-width: 860px) {
+
+
+  h1{
+  font-size: 60px;
+  }
+
+  h2{
+  font-size: 40px;
+  }
+
+  p{
+  font-size: 20px;
+  }
+
+  .intro{
+	padding: 12px;
+	width: 500px;
+  }
+
+  .progetti{
+	padding: 12px;
+	width: 500px;
+  }
+
+  .contatti{
+    width: 50%;
+  }
+
+  .contactform{
+    width: 50%;
+  }
+
+  input[type=text],select{
+    width: 100%;
+  }
+
+  textarea {
+    width: 100%;
+  }
+
+  .tooltip {
+    margin-left: 30%;
+  }
+}
+
+@media only screen and (min-width:861px) and (max-width: 1370px) {
+
+
+  h1{
+  font-size: 70px;
+  }
+
+  h2{
+  font-size: 50px;
+  }
+
+  p{
+  font-size: 25px;
+  }
+
+  .intro{
+	padding: 12px;
+	width: 800px;
+  }
+
+  .progetti{
+	padding: 12px;
+	width: 800px;
+  }
+
+  .contatti{
+    width: 50%;
+  }
+
+  .contactform{
+    width: 50%;
+  }
+
+  .formcss{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .inomiecognomi{
+    width: 40%;
+  }
+
+  .email{
+    width: 40%;
+  }
+
+  .messaggio{
+    flex-grow: 1;
+    width: 100%;
+  }
+
+  input[type=text],select{
+    width: 100%;
+  }
+
+  textarea {
+    width: 100%;
+  }
+
+  .bottone {
+    flex-grow: 1;
+    width: 100%;
+  }
+
+  .tooltip{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}
+
+
+@media only screen and (min-width:1371px) {
+
+
+  h1{
+  font-size: 90px;
+  }
+
+  h2{
+  font-size: 50px;
+  }
+
+  p{
+  font-size: 25px;
+  }
+
+  .intro{
+	padding: 10px;
+	width: 1300px;
+  }
+
+  .progetti{
+	padding: 10px;
+	width: 1300px;
+  }
+
+  .contatti{
+    width: 50%;
+  }
+
+  .contactform{
+    width: 50%;
+  }
+
+  .formcss{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .inomiecognomi{
+    width: 40%;
+  }
+
+  .email{
+    width: 40%;
+  }
+
+  .messaggio{
+    flex-grow: 1;
+    width: 100%;
+  }
+
+  input[type=text],select{
+    width: 100%;
+  }
+
+  textarea {
+    width: 100%;
+  }
+
+  .bottone {
+    flex-grow: 1;
+    width: 100%;
+  }
+
+  .tooltip{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }  
+}
