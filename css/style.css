@@ -1,8 +1,3 @@
-body {
-  	margin: 10 auto;
-	background-color: #171717ff;
-}
-
 .wrapper {
  	display: flex;
  	flex-direction: row;
@@ -26,25 +21,6 @@ body {
   	margin-bottom: 36px;
   	border-radius: 8px;
 }
-
-.immagine{
-  width: 100%;
-  object-fit: cover;
-}
-
-a{
-  text-decoration: none;
-}
-
-#dark {
-	color: #62043C;
-}
-
-a:link, a:visited {
-  	color: #FA66BF;
-}
-
-
 
 .disclaimer{
   font-size: 18px;
@@ -75,77 +51,8 @@ a:link, a:visited {
   align-content: space-between;
 }
 
-@media only screen and (min-width: 290px){
-  h1 {
-  	font-family: 'Ubuntu', sans-serif;
-  	color: #fa66bf;
-  	text-align: center;
-	vertical-align: middle;
- 	font-weight: bold;
-  }
-
-  h2{
-  font-family: 'Ubuntu', sans-serif;
-  color: #fa66bf;
-  text-align: left;
-	vertical-align: left;
-  font-weight: bold;
-  }
-
-  h3 {
-    	font-family: 'Ubuntu', sans-serif;
-    	color: #fdc0e5;
-    	text-align: left;
-	vertical-align: left;
-    	font-weight: bold;
-  }
-
-  p{
-  font-family: 'Ubuntu', sans-serif;
-  color: #FEEBF6;
-  text-align: center;
-	vertical-align: middle;
-  font-weight: bold;
-  }
-
-  .intro{
-  margin: 0 auto 0 auto; 
-  }
-
-  .progetti{
-  margin: 0 auto 0 auto; 
-  }
-
-
-
-}
-
 @media only screen and (min-width: 290px) and (max-width: 550px) {
 
-  h1{
-  font-size: 50px;
-  }
-
-  h2{
-  font-size: 40px;
-  }
-
-  h3{
-  font-size: 30px;
-  }
-
-  p{
-  font-size: 20px;
-  }
-
-  .intro{
-	width: 250px;
-  }
-
-  .progetti{
-	padding: 12px;
-	width: 250px;
-  }
 
   .proj{
     width: 70%;
@@ -168,32 +75,6 @@ a:link, a:visited {
 
 @media only screen and (min-width:551px) and (max-width: 860px) {
 
-
-  h1{
-  font-size: 60px;
-  }
-
-  h2{
-  font-size: 40px;
-  }
-
-  h3{
-  font-size: 30px;
-  }
-
-  p{
-  font-size: 20px;
-  }
-
-  .intro{
-	width: 500px;
-  }
-
-  .progetti{
-	padding: 12px;
-	width: 500px;
-  }
-
   .proj{
     width: 45%;
   }
@@ -201,32 +82,6 @@ a:link, a:visited {
 }
 
 @media only screen and (min-width:861px) and (max-width: 1370px) {
-
-
-  h1{
-  font-size: 70px;
-  }
-
-  h2{
-  font-size: 50px;
-  }
-
-  h3{
-  font-size: 40px;
-  }
-
-  p{
-  font-size: 25px;
-  }
-
-  .intro{
-	width: 800px;
-  }
-
-  .progetti{
-	padding: 12px;
-	width: 800px;
-  }
 
   .proj{
     width: 40%;
@@ -256,32 +111,6 @@ a:link, a:visited {
 
 
 @media only screen and (min-width:1371px) {
-
-
-  h1{
-  font-size: 90px;
-  }
-
-  h2{
-  font-size: 50px;
-  }
-
-  h3{
-  font-size: 40px;
-  }
-
-  p{
-  font-size: 25px;
-  }
-
-  .intro{
-	width: 1300px;
-  }
-
-  .progetti{
-	padding: 10px;
-	width: 1300px;
-  }
 
   .proj{
     width: 30%;
