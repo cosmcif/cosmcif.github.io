@@ -16,10 +16,7 @@
   font-size: 18px;
   text-align: left;
 }
-.brown:link, .brown:visited {
-  color: #472c1bff;
-  text-shadow: 0 0 0 #472c1bff;
-}
+
 
 input[type=text], select, textarea {
   padding: 12px;
@@ -67,20 +64,6 @@ input[type=text], select, textarea {
 
 .contatti{
     text-align: left;
-}
-
-
-@media only screen and (min-width: 290px){
-  .intro{
-  background-color: rgba(249, 181, 172, 0.5);
-  margin: 0 auto 0 auto; 
-  text-shadow: 0 2px 0 #f9b5acff;
-  }
-
-  .progetti{
-  margin: 0 auto 0 auto; 
-  }
-
 }
 
 @media only screen and (min-width: 290px) and (max-width: 550px) {
