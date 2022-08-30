@@ -1,7 +1,4 @@
-body {
-  margin: 10 auto;
-  background-color: #ee7674ff;
-}
+@import "core.css";
 
 .wrapper {
   display: flex;
@@ -25,15 +22,6 @@ body {
   width: 100%;
 }
 
-a{
-  text-decoration: none;
-}
-
-a:link, a:visited {
-  color: #4e6e5dff;
-  text-shadow: 1px 1px 0 #c1dbb3ff;
-}
-
 .disclaimer{
   font-size: 18px;
   text-align: left;
@@ -44,11 +32,6 @@ a:link, a:visited {
   font-size: 20px;
   font-family: 'Ubuntu', sans-serif;
   font-weight: 500;
-}
-
-.brown:link, .brown:visited {
-  color: #472c1bff;
-  text-shadow: 0 0 0 #472c1bff;
 }
 
 .sory{
@@ -63,114 +46,8 @@ a:link, a:visited {
   font-size: 20px;
 }
 
-@media only screen and (min-width: 290px){
-  h1{
-  font-family: 'Ubuntu', sans-serif;
-  color: #c1dbb3ff;
-  text-shadow: 5px 5px 0 #4e6e5dff;
-  text-align: center;
-	vertical-align: middle;
-  font-weight: bold;
-  }
-
-  h2{
-  font-family: 'Ubuntu', sans-serif;
-  color: #4e6e5dff;
-  text-shadow: 3px 3px 0 #c1dbb3ff;
-  text-align: left;
-	vertical-align: left;
-  font-weight: bold;
-  }
-
-  h3{
-    font-family: 'Ubuntu', sans-serif;
-    color: #c1dbb3ff;
-    text-shadow: 2px 2px 0 #4e6e5dff;
-    text-align: left;
-	  vertical-align: left;
-    font-weight: bold;
-  }
-
-  p{
-  font-family: 'Ubuntu', sans-serif;
-  color: #472c1bff;
-  text-align: center;
-	vertical-align: middle;
-  font-weight: bold;
-  }
-
-  .intro{
-  background-color: rgba(249, 181, 172, 0.5);
-  margin: 0 auto 0 auto; 
-  text-shadow: 0 2px 0 #f9b5acff;
-  }
-
-  .progetti{
-  margin: 0 auto 0 auto; 
-  }
-
-
-
-}
-
-@media only screen and (min-width: 290px) and (max-width: 550px) {
-
-  h1{
-  font-size: 50px;
-  }
-
-  h2{
-  font-size: 40px;
-  }
-
-  h3{
-  font-size: 30px;
-  }
-
-  p{
-  font-size: 20px;
-  }
-
-  .intro{
-	padding: 12px;
-	width: 250px;
-  }
-
-  .progetti{
-	padding: 12px;
-	width: 250px;
-  }
-
-}
-
 @media only screen and (min-width:551px) and (max-width: 860px) {
 
-
-  h1{
-  font-size: 60px;
-  }
-
-  h2{
-  font-size: 40px;
-  }
-
-  h3{
-  font-size: 30px;
-  }
-
-  p{
-  font-size: 20px;
-  }
-
-  .intro{
-	padding: 12px;
-	width: 500px;
-  }
-
-  .progetti{
-	padding: 12px;
-	width: 500px;
-  }
 
   .summary{
     width: 30%;
@@ -194,33 +71,6 @@ a:link, a:visited {
 
 @media only screen and (min-width:861px) and (max-width: 1370px) {
 
-
-  h1{
-  font-size: 70px;
-  }
-
-  h2{
-  font-size: 50px;
-  }
-
-  h3{
-  font-size: 40px;
-  }
-
-  p{
-  font-size: 25px;
-  }
-
-  .intro{
-	padding: 12px;
-	width: 800px;
-  }
-
-  .progetti{
-	padding: 12px;
-	width: 800px;
-  }
-
   .summary{
     width: 15%;
   }
@@ -239,32 +89,6 @@ a:link, a:visited {
 
 @media only screen and (min-width:1371px) {
 
-
-  h1{
-  font-size: 90px;
-  }
-
-  h2{
-  font-size: 50px;
-  }
-
-  h3{
-  font-size: 40px;
-  }
-
-  p{
-  font-size: 25px;
-  }
-
-  .intro{
-	padding: 10px;
-	width: 1300px;
-  }
-
-  .progetti{
-	padding: 10px;
-	width: 1300px;
-  }
 
   .summary{
     width: 15%;
