@@ -1,77 +1,83 @@
-<!DOCTYPE html>
+<!--
+    Web Atelier 2022
+    Exercise 1
+    HTML5 and CSS
+
+    Home Page
+
+    Author: Sofia d'Atri
+
+-->
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="icon" href="https://cosmcif.github.io/icon/melon.png" type="image/png" />
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" rel="stylesheet">
-    <title>Sofia</title>
-    <link href="css/style.css" rel="stylesheet" type="text/css" />
-  </head>
-  <body>
-    <div class="titolo"><h1>hi, I'm Sofia!</h1></div>
-    <div class="intro">
-      <p id="dark"><a href="#">home</a> - <a href="https://cosmcif.github.io/wip">work in progress</a> - <a href="https://cosmcif.github.io/whoami">whoami</a> - <a href="https://cosmcif.github.io/contacts">contacts</a></p>
-    </div>
-    <div class="progetti">
-      <p>I need to update this website.</p>
-      <div class="wrapper">
-        <div class="proj">
-          <a href="https://github.com/ogs-at-usi/handshake" target="_blank">
-            <div class="copertina"><img class="immagine" src="pics/hscolorilogo.png" alt="HandShake Cover Image"></div></a>
-          <a href="https://github.com/ogs-at-usi/handshake" target="_blank">
-            <div class="titolo"><p>HandShake</p></div></a>
-        </div>
-        
-        <div class="proj">
-          <a href="photonic">
-            <div class="copertina"><img class="immagine" src="pics/photonic.png" alt="Photonic Cover Image"></div></a>
-          <a href="photonic">
-            <div class="titolo"><p>Introduction to Photonic Quantum Computers</p></div></a>
-        </div>
-        
-        <div class="proj">
-          <a href="qkd">
-            <div class="copertina"><img class="immagine" src="pics/alicebob.jpg" alt="Alice and Bob QKD adventure"></div></a>
-          <a href="qkd">
-            <div class="titolo"><p>Alice and Bob use QKD to plan Eve's surprise party</p></div></a>
-        </div>
-        
-        <div class="proj">
-          <a href="elaborato">
-            <div class="copertina"><img class="immagine" src="pics/elaborato.png" alt="Elaborato Cover Image"></div></a>
-          <a href="elaborato">
-            <div class="titolo"><p>Elaborato di maturità</p></div></a>
-        </div>
-        
-        <div class="proj">
-          <a href="planetrecovery">
-            <div class="copertina"><img class="immagine" src="pics/greenLeague.png" alt="Planet Recovery Cover Image"></div></a>
-          <a href="planetrecovery">
-            <div class="titolo"><p>Planet Recovery - Allarme Clima</p></div></a>
-        </div>
 
+<head>
+  <title>Sofia's website</title>
+  <meta name="author" content="Sofia d'Atri">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  <link href="./css/core.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header>
+    <h1>hi im sofia</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Projects</a></li>
+      <li><a href="#">Music</a></li>
+      <li><a href="#">About me</a></li>
+    </ul>
+  </nav>
+  <main>
+    <h2>whoami</h2>
+    <p>"when she's looking at you, she doesn't see you. she sees you when she's not looking at you. she'll become a
+      diplomat" - my granpda at my birth</p>
+    <p>i make music, games, i like cryptography and graphics and quantum computing and i love cooking</p>
+    <h2>latest projects</h2>
+    <p>find more projects <a href="#">here</a></p>
+    <div class="wrapper">
         <div class="proj">
-          <a href="dressup">
-            <div class="copertina"><img class="immagine" src="pics/dressup.png" alt="Dress Up Game Cover Image"></div></a>
-          <a href="dressup">
-            <div class="titolo"><p>Just a little dress up game</p></div></a>
+          <a href="https://gitlab.com/usi-si-oss/teaching/projects-showcase/sa4/team-4-pufferfish" target="_blank">
+            <div class="copertina"><img class="immagine" src="pics/journeytales.png" alt="Journey Tales Cover Image"></div>
+          </a>
+          <a href="https://gitlab.com/usi-si-oss/teaching/projects-showcase/sa4/team-4-pufferfish" target="_blank">
+            <div class="titolo">
+              <p>JourneyTales - travel social media</p>
+            </div>
+          </a>
+        </div>
+        <div class="proj">
+        <a href="https://github.com/ogs-at-usi/handshake" target="_blank">
+          <div class="copertina"><img class="immagine" src="pics/hscolorilogo.png" alt="HandShake Cover Image"></div>
+        </a>
+        <a href="https://github.com/ogs-at-usi/handshake" target="_blank">
+          <div class="titolo">
+            <p>HandShake - instant messaging webapp</p>
           </div>
-
-        <div class="proj">
-          <a href="iliade">
-            <div class="copertina"><img class="immagine" src="pics/iliadecover.png" alt="Iliade Cover Image"></div></a>
-          <a href="iliade">
-            <div class="titolo"><p>Iliade - Il gioco</p></div></a>
-        </div>
-        
+        </a>
+      </div>
+      <div class="proj">
+        <a href="https://cosmcif.itch.io/qkd" target="_blank">
+          <div class="copertina"><img class="immagine" src="pics/alicebob.jpg" alt="Alice and Bob QKD adventure"></div>
+        </a>
+        <a href="https://cosmcif.itch.io/qkd" target="_blank">
+          <div class="titolo">
+            <p>Alice and Bob use QKD to plan Eve's surprise party</p>
+          </div>
+        </a>
       </div>
     </div>
-    <footer>
-      <p>Made by <a href="mailto:datrisof@gmail.com">Sofia d'Atri</a></p>
-      <p>All rights reserved.</p>
-    </footer>
-  </body>
+  </main>
+  <aside>
+    <h2>latest music</h2>
+    <img src="./pics/richu.gif" alt="frog" width="100%" />
+
+  </aside>
+  <footer>
+    <p>Made by <a href="mailto:datrisof@gmail.com">Sofia d'Atri</a></p>
+  </footer>
+</body>
+
 </html>

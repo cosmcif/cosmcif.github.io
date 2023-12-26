@@ -1,252 +1,152 @@
 body {
-  	margin: 10 auto;
-	background-color: #171717ff;
+  font-family: 'Courier New', monospace;
+  padding: 0;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  background-color: #000047;
+  flex-wrap: wrap;
 }
 
-a{
-  text-decoration: none;
+.immagine{
+  width: 100%;
+  object-fit: cover;
+} 
+.wrapper {
+  display: flex;
+  flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-content: space-between;
 }
 
-#dark {
-	color: #62043C;
-}
-
-a:link, a:visited {
-  	color: #FA66BF;
-}
-
-  .immagine{
-    width: 100%;
-    object-fit: cover;
-  } 
-
-@media only screen and (min-width: 290px){
-  h1 {
-  	font-family: 'Ubuntu', sans-serif;
-  	color: #fa66bf;
-  	text-align: center;
-	vertical-align: middle;
- 	font-weight: bold;
-  }
-
-  h2{
-  font-family: 'Ubuntu', sans-serif;
-  color: #fa66bf;
-  text-align: left;
-	vertical-align: left;
-  font-weight: bold;
-  }
-
-  h3 {
-    	font-family: 'Ubuntu', sans-serif;
-    	color: #fdc0e5;
-    	text-align: left;
-	vertical-align: left;
-    	font-weight: bold;
-  }
-
-  p{
-  font-family: 'Ubuntu', sans-serif;
-  color: #FEEBF6;
+footer {
+  margin-top: auto;
+  background-color: black;
   text-align: center;
-	vertical-align: middle;
+  flex: 0 0 100%;
+}
+
+header {
+  flex: 0 0 100%;
+  margin-bottom: auto;
+  box-sizing: content-box;
+}
+
+h1 {
+  color: #1dc300;
+  text-align: center;
+}
+
+h2 {
+  color: #e0e000;
+  font-size: 2em;
+}
+
+h3 {
+  color: #e000d9;
+  font-size: 1.5em;
+}
+
+a {
+  color: #00c3d9;
+  text-decoration: none;
   font-weight: bold;
-  }
-
-  .intro{
-  margin: 0 auto 0 auto; 
-  }
-
-  .progetti{
-  margin: 0 auto 0 auto; 
-  }
-
-
-
 }
 
-@media only screen and (min-width: 290px) and (max-width: 550px) {
-
-  h1{
-  font-size: 50px;
-  }
-
-  h2{
-  font-size: 40px;
-  }
-
-  h3{
-  font-size: 30px;
-  }
-
-  p{
-  font-size: 20px;
-  }
-
-  .intro{
-	width: 250px;
-  }
-
-  .progetti{
-	padding: 12px;
-	width: 250px;
-  }
-
-  .proj{
-    width: 70%;
-    flex-grow: 1;
-  }
-
-  .gioco{
-    display: none;
-  }
-
-  .proj1{
-    flex-grow: 1;
-  }
-
-  .pic{
-    flex-grow: 1;
-  }
-
+a:hover {
+  color: #e0e000;
 }
 
-@media only screen and (min-width:551px) and (max-width: 860px) {
-
-
-  h1{
-  font-size: 60px;
-  }
-
-  h2{
-  font-size: 40px;
-  }
-
-  h3{
-  font-size: 30px;
-  }
-
-  p{
-  font-size: 20px;
-  }
-
-  .intro{
-	width: 500px;
-  }
-
-  .progetti{
-	padding: 12px;
-	width: 500px;
-  }
-
-  .proj{
-    width: 45%;
-  }
-
+a:active {
+  color: #e000d9;
 }
 
-@media only screen and (min-width:861px) and (max-width: 1370px) {
+p,
+li {
+  color: #c3c3d9;
+  font-size: 1em;
+  line-height: 2;
+}
 
+main,
+aside {
+  text-align: left;
+}
 
-  h1{
-  font-size: 70px;
-  }
+ul,
+ol {
 
-  h2{
-  font-size: 50px;
-  }
+  list-style-position: inside;
+  text-align: left;
+}
 
-  h3{
-  font-size: 40px;
-  }
-
-  p{
-  font-size: 25px;
-  }
-
-  .intro{
-	width: 800px;
-  }
-
-  .progetti{
-	padding: 12px;
-	width: 800px;
-  }
-
-  .proj{
-    width: 40%;
-  }
-
-  .gioco{
-    width: 70%;
-  }
-
-  .description{
-    width: 30%;
-    font-size: 20px;
-  }
-  .proj1{
-    flex-grow: 1;
-  }
-
-  .pic{
-    flex-grow: 1;
-  }
-
-
-  #elab{
-    flex-grow: 1;
-  }
+ul {
+  list-style-type: none;
 }
 
 
-@media only screen and (min-width:1371px) {
-
-
-  h1{
-  font-size: 90px;
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 85%;
+    justify-content:space-evenly;
   }
 
-  h2{
-  font-size: 50px;
+  main,
+  aside,
+  nav {
+    width: 80%;
   }
 
-  h3{
-  font-size: 40px;
+  nav ul li {
+    display: inline;
   }
 
-  p{
-  font-size: 25px;
+  nav ul,
+  aside ol {
+    text-align: center;
+    padding: 0;
   }
 
-  .intro{
-	width: 1300px;
+  aside {
+    margin-top: 10px;
   }
 
-  .progetti{
-	padding: 10px;
-	width: 1300px;
+  h1 {
+    font-size: 4em;
   }
 
-  .proj{
-    width: 30%;
+  
+    .proj{
+      width: 40%;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+
+  nav,
+  aside {
+    width: 20%;
   }
 
-  .gioco{
-    width: 50%;
+  main {
+    width: 54%;
   }
 
-  .description{
-    width: 50%;
-    font-size: 20px;
+  body {
+    justify-content: space-between;
   }
 
-  .proj1{
-    width: 45%;
+  h1 {
+    font-size: 7em;
   }
 
-  .pic{
-    width: 50%;
-  }
+  
+    .proj{
+      width: 30%;
+    }
+  
 
 }
