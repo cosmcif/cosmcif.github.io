@@ -64,10 +64,16 @@ a:active {
 }
 
 p,
-li {
+li,
+details {
   color: #c3c3d9;
   font-size: 1em;
   line-height: 2;
+}
+
+summary {
+  text-decoration: none;
+  font-weight: bold;
 }
 
 main,
