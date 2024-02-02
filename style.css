@@ -43,12 +43,12 @@ h1 {
 
 h2 {
   color: #e0e000;
-  font-size: 2em;
+  font-size: 2rem;
 }
 
 h3 {
   color: #e000d9;
-  font-size: 1.5em;
+  font-size: 1.5rem;
 }
 
 a {
@@ -68,7 +68,7 @@ a:active {
 p,
 li {
   color: #c3c3d9;
-  font-size: 1em;
+  font-size: 1.5rem;
   line-height: 2;
 }
 
@@ -116,7 +116,7 @@ ul {
   }
 
   h1 {
-    font-size: 4em;
+    font-size: 4rem;
   }
 
   
@@ -142,7 +142,7 @@ ul {
   }
 
   h1 {
-    font-size: 7em;
+    font-size: 7rem;
   }
 
   
