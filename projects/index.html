@@ -4,169 +4,159 @@
   <title>Sofia's website</title>
   <meta name="author" content="Sofia d'Atri">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
-  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="../style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
-  <header>
-    <h1>hi im sofia</h1>
-  </header>
   <nav>
     <ul>
-      <li><a href="https://cosmcif.github.io/">Home</a></li>
-      <li><a href="#">Projects</a></li>
-      <li><a href="https://cosmcif.github.io/music/">Music</a></li>
-      <li><a href="https://cosmcif.github.io/whoami/">About me</a></li>
+      <li><a class="tooltip" href="#">
+          <img class="btn" src="pics/house.gif" alt="Home">
+          <span class="tooltiptext">Home</span>
+        </a></li>
+      <li><a class="tooltip" href="#">
+          <img class="btn" src="pics/star.gif" alt="Projects">
+          <span class="tooltiptext">Projects</span>
+        </a></li>
+      <li><a class="tooltip" href="#">
+          <img class="btn" src="pics/food.gif" alt="Cookbook">
+          <span class="tooltiptext">Cookbook</span>
+
+        </a></li>
+      <li><a class="tooltip" href="#">
+          <img class="btn" src="pics/music.gif" alt="Music">
+          <span class="tooltiptext">Music</span>
+
+        </a></li>
+      <li><a class="tooltip" href="#">
+          <img class="btn" src="pics/girl.gif" alt="About me">
+          <span class="tooltiptext">About me</span>
+
+        </a></li>
     </ul>
   </nav>
+
+
+  <header>
+    <h1>Sofia's website (˵ •̀ ᴗ •́ ˵ ) ✧ </h1>
+    <p></p>
+  </header>
+
   <main>
-    <h2>all projects</h2>
+    <h2>All projects</h2>
     <div class="wrapper">
-      <div class="proj">
-        <a href="raytracer">
-          <div class="copertina"><img class="immagine" src="../pics/kyurem_small.png" alt="Raytracer Cover Image">
-          </div>
-        </a>
-        <a href="raytracer">
+
+      <a href="raytracer">
+        <div class="proj">
+          <div class="copertina"><img class="immagine" src="../pics/kyurem_small.png" alt="Raytracer Cover Image"></div>
           <div class="titolo">
             <p>Raytracer</p>
+            <p class="description">Raytracer in C++ for the Computer Graphics course that won the 2023 USI Rendering
+              Competition.</p>
           </div>
-        </a>
-      </div>
+        </div>
+      </a>
 
-      <div class="proj">
-        <a href="https://github.com/CuremateJunction/frontend" target="_blank">
-          <div class="copertina"><img class="immagine" src="../pics/finn.png" alt="Finn Cover Image">
-          </div>
-        </a>
-        <a href="https://github.com/CuremateJunction/frontend" target="_blank">
+      <a href="https://github.com/CuremateJunction/frontend" target="_blank">
+        <div class="proj">
+          <div class="copertina"><img class="immagine" src="../pics/finn.png" alt="Finn Cover Image"></div>
           <div class="titolo">
-            <p>Finn - Junction Helsinki 2023</p>
+            <p>Finn</p>
+            <p class="description">Project for the 2023 Junction Hackathon in Helsinki, Finland.</p>
           </div>
-        </a>
-      </div>
-      <div class="proj">
-        <a href="https://gitlab.com/usi-si-oss/teaching/projects-showcase/sa4/team-4-pufferfish" target="_blank">
+        </div>
+      </a>
+
+      <a href="https://gitlab.com/usi-si-oss/teaching/projects-showcase/sa4/team-4-pufferfish" target="_blank">
+        <div class="proj">
           <div class="copertina"><img class="immagine" src="../pics/journeytales.png" alt="Journey Tales Cover Image">
           </div>
-        </a>
-        <a href="https://gitlab.com/usi-si-oss/teaching/projects-showcase/sa4/team-4-pufferfish" target="_blank">
           <div class="titolo">
-            <p>JourneyTales - travel social media</p>
+            <p>JourneyTales</p>
+            <p class="description">Travel social media in Java Spring Boot and Vue for the course Software Atelier 4 -
+              Software Engineering Project.</p>
           </div>
-        </a>
-      </div>
-      <div class="proj">
-        <a href="https://github.com/ogs-at-usi/handshake" target="_blank">
-          <div class="copertina"><img class="immagine" src="../pics/hscolorilogo.png" alt="HandShake Cover Image"></div>
-        </a>
-        <a href="https://github.com/ogs-at-usi/handshake" target="_blank">
-          <div class="titolo">
-            <p>HandShake - instant messaging webapp</p>
-          </div>
-        </a>
-      </div>
+        </div>
+      </a>
 
-      <div class="proj">
-        <a href="https://github.com/cosmcif/Quantum-Hardware-Education-Challenge---QWorld" target="_blank">
+      <a href="https://github.com/ogs-at-usi/handshake" target="_blank">
+        <div class="proj">
+          <div class="copertina"><img class="immagine" src="../pics/hscolorilogo.png" alt="HandShake Cover Image"></div>
+          <div class="titolo">
+            <p>HandShake</p>
+            <p class="description">Instant messaging webapp in Javascript and Vue for the course Software Atelier 3 -
+              The Web.</p>
+          </div>
+        </div>
+      </a>
+
+      <a href="https://github.com/cosmcif/Quantum-Hardware-Education-Challenge---QWorld" target="_blank">
+        <div class="proj">
           <div class="copertina"><img class="immagine" src="../pics/photonic.png" alt="Photonic Cover Image"></div>
-        </a>
-        <a href="https://github.com/cosmcif/Quantum-Hardware-Education-Challenge---QWorld" target="_blank">
           <div class="titolo">
             <p>Introduction to Photonic Quantum Computers</p>
+            <p class="description">Course on Photonic Quantum Computers for the 2022 Womanium Quantum Hackathon.</p>
           </div>
-        </a>
-      </div>
-
-      <div class="proj">
-        <a href="qkd">
+        </div>
+      </a>
+      <a href="qkd">
+        <div class="proj">
           <div class="copertina"><img class="immagine" src="../pics/alicebob.jpg" alt="Alice and Bob QKD adventure">
           </div>
-        </a>
-        <a href="qkd">
           <div class="titolo">
             <p>Alice and Bob use QKD to plan Eve's surprise party</p>
+            <p class="description">Short game on Quantum Key Distribution.</p>
           </div>
-        </a>
-      </div>
+        </div>
+      </a>
 
-      <div class="proj">
-        <a href="https://github.com/cosmcif/esame-maturita" target="_blank">
+
+      <a href="https://github.com/cosmcif/esame-maturita" target="_blank">
+        <div class="proj">
           <div class="copertina"><img class="immagine" src="../pics/elaborato.png" alt="Elaborato Cover Image"></div>
-        </a>
-        <a href="https://github.com/cosmcif/esame-maturita" target="_blank">
           <div class="titolo">
             <p>Elaborato di maturità</p>
           </div>
-        </a>
-      </div>
+        </div>
+      </a>
 
-      <div class="proj">
-        <a href="https://scratch.mit.edu/projects/206171626/" target="_blank">
+      <a href="https://scratch.mit.edu/projects/206171626/" target="_blank">
+        <div class="proj">
           <div class="copertina"><img class="immagine" src="../pics/greenLeague.png" alt="Planet Recovery Cover Image">
           </div>
-        </a>
-        <a href="https://scratch.mit.edu/projects/206171626/" target="_blank">
           <div class="titolo">
             <p>Planet Recovery - Allarme Clima</p>
           </div>
-        </a>
-      </div>
+        </div>
+      </a>
 
-      <div class="proj">
-        <a href="https://scratch.mit.edu/projects/196479956/" target="_blank">
-          <div class="copertina"><img class="immagine" src="../pics/dressup.png" alt="Dress Up Game Cover Image"></div>
-        </a>
-        <a href="https://scratch.mit.edu/projects/196479956/" target="_blank">
+      <a href="https://scratch.mit.edu/projects/196479956/" target="_blank">
+        <div class="proj">
+          <div class="copertina"><img class="immagine" src="../pics/dressup.png" alt="Dress Up Game Cover Image">
+          </div>
           <div class="titolo">
             <p>Just a little dress up game</p>
           </div>
-        </a>
-      </div>
+        </div>
+      </a>
 
-      <div class="proj">
-        <a href="iliade">
+      <a href="iliade">
+        <div class="proj">
           <div class="copertina"><img class="immagine" src="../pics/iliadecover.png" alt="Iliade Cover Image"></div>
-        </a>
-        <a href="iliade">
           <div class="titolo">
             <p>Iliade - Il gioco</p>
           </div>
-        </a>
-      </div>
+        </div>
+      </a>
     </div>
   </main>
-  <aside>
-    <h2>project graveyard</h2>
-    <p>All those projects that have been indefinitely paused (in no particular order). Might work on them again at some point.</p>
-    <details>
-      <summary>Carillon project</summary>
-      <span>A collection of music and pixel art</span>
-    </details>
-    <details>
-      <summary>Quantum World</summary>
-      <span>A game on the history of quantum mechanics</span>
-    </details>
-    <details>
-      <summary>Iliad - The game</summary>
-      <span>A remake of the og Iliade PowerPoint game</span>
-    </details>
-    <details>
-      <summary>Odissea</summary>
-      <span>Iliad's sequel</span>
-    </details>
-    <details>
-      <summary>The Knight</summary>
-      <span>A romantic isekai visual novel about Il Cavaliere</span>
-    </details>
-    <details>
-      <summary>Berlusconi dressup</summary>
-      <span>The only item of clothing that's available is a bandana</span>
-    </details>
-  </aside>
   <footer>
-    <p>Made by <a href="mailto:datrisof@gmail.com">Sofia d'Atri</a></p>
+    <img src="../pics/puff.gif"><span>Made by <a href="mailto:datrisof@gmail.com">sofi</a></span>
+    <img src="../pics/puff.gif">
+    <br>
+    <a href="https://pixelsea.neocities.org/" target="_blank"><img src="../pics/pixelsea-badge.gif"></a>
+    <a href="https://textures.neocities.org/" target="_blank"><img src="../pics/textown-badge.gif"></a>
+
   </footer>
 </body>
 
