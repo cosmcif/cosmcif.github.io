@@ -113,12 +113,15 @@ aside ol {
   padding: 0;
 }
 
-main,
 footer,
 nav,
 header {
   width: 80%;
   border-width: 2px;
+}
+
+main {
+  width: 80%;
 }
 
 /* HEADER */
@@ -191,6 +194,33 @@ footer {
   background-image: url(pics/cc440050.png);
 }
 
+.game {
+  display: flex;
+  flex-direction: column;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-image: url(pics/Clear_Day_Bkgrd.jpg);
+
+}
+
+.game p {
+  padding-left: 5px;
+}
+
+.game_pics {
+  display: flex wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 2px;
+
+}
+
+.game_pics a img {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #000;
+  height: 167px;
+}
+
 .newswrapper {
   border-width: 1px;
   border-style: dashed;
@@ -202,7 +232,6 @@ footer {
   overflow-y: auto;
 
   background-image: url(pics/bubblespurplebg.jpg);
-
 }
 
 .proj {
