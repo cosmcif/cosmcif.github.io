@@ -1,39 +1,64 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <title>not found :(</title>
-  <meta name="author" content="Sofia d'Atri">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
-  <link href="style.css" rel="stylesheet" type="text/css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404 - Page Not Found</title>
+  <style>
+    /* 404 Page Styles */
+    body {
+      background-color: #f4f4f4;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      color: #333;
+      background-image: url(pics/rainbowstr.gif);
+      background-size: repeat;
+    }
+
+    .container {
+      text-align: center;
+      padding: 20px;
+      background-color: #fff;
+      border: 2px solid #ccc;
+    }
+
+    h1 {
+      font-size: 3em;
+      margin: 0;
+    }
+
+    p {
+      font-size: 1.2em;
+      margin: 10px 0 20px;
+    }
+
+    .home-button {
+      display: inline-block;
+      padding: 10px 20px;
+      font-size: 1em;
+      color: #222;
+      background-color: #ccc;
+      text-decoration: none;
+      box-shadow: inset 2px 2px 5px #fff, inset -2px -2px 5px #aaa;
+    }
+
+    .home-button:hover {
+      background-color: #0056b3;
+    }
+  </style>
 </head>
 
 <body>
-  <header>
-    <h1>hi im sofia</h1>
-  </header>
-  <nav>
-    <ul>
-      <li><a href="https://cosmcif.github.io/">Home</a></li>
-      <li><a href="https://cosmcif.github.io/projects/">Projects</a></li>
-      <li><a href="https://cosmcif.github.io/music/">Music</a></li>
-      <li><a href="https://cosmcif.github.io/whoami/">About me</a></li>
-    </ul>
-  </nav>
-  <main>
-    <h2>this page does not exist !!</h2>
-    <div class="progetti">
-      <a href="mailto:datrisof@gmail.com"><img class="sory" src="sorry.png"
-          alt="hi, this page still doesn't exist. I apologize for the inconvenience. come back later or click here [contact page] to contact me. Sofia" /></a>
-    </div>
-  </main>
-  <aside>
-    <!-- <h2>right hand sidebar</h2> -->
-  </aside>
-  <footer>
-    <p>Made by <a href="mailto:datrisof@gmail.com">Sofia d'Atri</a></p>
-  </footer>
+  <div class="container">
+    <h1>404</h1>
+    <p>Sorry! This page doesn't exist :(</p>
+    <a href="index.html" class="home-button">Go Home</a>
+  </div>
 </body>
 
 </html>
