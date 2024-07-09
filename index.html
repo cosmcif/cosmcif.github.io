@@ -1,96 +1,88 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-  <title>Sofia's website</title>
-  <meta name="author" content="Sofia d'Atri">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
-  <link href="style.css" rel="stylesheet" type="text/css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sofia's homepage</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="icon/icon.png" type="image/png" />
 </head>
 
 <body>
-  <header>
-    <h1>hi im sofia</h1>
-  </header>
-  <nav>
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="projects">Projects</a></li>
-      <li><a href="music">Music</a></li>
-      <li><a href="whoami">About me</a></li>
-    </ul>
-  </nav>
-  <main>
-    <!-- <h2>whoami</h2> -->
-    <!-- <p>"when she's looking at you, she doesn't see you. she sees you when she's not looking at you. she'll become a
-      diplomat" - my granpda at my birth</p> -->
-    <p>i make music, games, i like cryptography and graphics and quantum computing and i love cooking</p>
-    <h2>latest projects</h2>
-    <p>find more projects <a href="projects">here</a></p>
-    <div class="wrapper">
-      <div class="proj">
-        <a href="projects/raytracer">
-          <div class="copertina"><img class="immagine" src="./pics/kyurem_small.png" alt="Raytracer Cover Image">
-          </div>
-        </a>
-        <a href="projects/raytracer">
-          <div class="titolo">
-            <p>Raytracer</p>
-          </div>
-        </a>
-      </div>
+  <div class="container">
+    <header>
+      <h1>Sofia's homepage</h1>
+      <nav>
+        <button>Home</button>
+        <button onclick="location.href='https://cosmcif.github.io/projects.html'">Projects</button>
+        <!-- <button onclick="location.href='https://cosmcif.github.io/cookbook.html'">Cookbook</button>
+        <button onclick="location.href='https://cosmcif.github.io/music.html'">Music</button> -->
+        <button onclick="location.href='https://cosmcif.github.io/whoami.html'">About me</button>    
+      </nav>
+    </header>
+    <main>
+      <!-- <h2>Welcome traveler, stay here a while!</h2> -->
 
-        <div class="proj">
-          <a href="https://gitlab.com/usi-si-oss/teaching/projects-showcase/sa4/team-4-pufferfish" target="_blank">
-            <div class="copertina"><img class="immagine" src="pics/journeytales.png" alt="Journey Tales Cover Image"></div>
-          </a>
-          <a href="https://gitlab.com/usi-si-oss/teaching/projects-showcase/sa4/team-4-pufferfish" target="_blank">
-            <div class="titolo">
-              <p>JourneyTales - travel social media</p>
-            </div>
-          </a>
+      <div class="content">
+        <img class="tinyimg" src="pics/new.gif" alt="news">
+        <div class="text">
+          <h2>New website<span style="float: right;">July 9th, 2024</span></h2>
+          <p>
+            Super excited that I'm finally updating this website!
+          </p>
         </div>
-        <div class="proj">
-        <a href="https://github.com/ogs-at-usi/handshake" target="_blank">
-          <div class="copertina"><img class="immagine" src="pics/hscolorilogo.png" alt="HandShake Cover Image"></div>
-        </a>
-        <a href="https://github.com/ogs-at-usi/handshake" target="_blank">
-          <div class="titolo">
-            <p>HandShake - instant messaging webapp</p>
-          </div>
-        </a>
       </div>
-    </div>
-  </main>
-  <aside>
-    <h2>latest music</h2>
-    <audio controls id="myAudio" loop style="display: none;">
-      <source src="./pics/music.wav" type="audio/mp3">
-      Your browser does not support the audio element.
-  </audio>
-  
-  <img src="./pics/music.gif" alt="frog" width="70%" alt="Click me" onclick="toggleMusic()">
-  <p>Press the record player above to listen to:</p>
-  <h3>Nighttime (city)</h3>
-  <p>Turntable sprite from <a href="https://opengameart.org/content/turntables-animated" target="_blank">opengameart</a>, recolored by me.</p>
+      <div class="content">
+        <img class="tinyimg" src="pics/newspaper.gif" alt="news">
+        <div class="text">
+          <h2>I'm remaking this website for the 100th time :p <span style="float: right;">May 10, 2024</span></h2>
+        </div>
+      </div>
+      <div class="content">
+        <img class="tinyimg" src="pics/cook-0025.gif" alt="news">
+        <div class="text">
+          <h2>Cookbook repo is now public, yay! <span style="float: right;">Mar 26, 2024</span></h2>
+          <p>Find it <a href="https://github.com/cosmcif/cookbook" target="_blank">here</a>.</p>
+        </div>
+      </div>
+      <div class="content">
+        <img class="tinyimg" src="pics/cook-0025.gif" alt="news">
+        <div class="text">
+          <h2>I made a cookbook repo, it's just private for now. <span style="float: right;">Jan 25, 2024</span></h2>
+        </div>
+      </div>
+      <div class="content">
+        <img class="tinyimg" src="pics/newspaper.gif" alt="news">
+        <div class="text">
+          <h2>Fun fact: I just edited this page on emacs............<span style="float: right;">Jan 7, 2024</span></h2>
+        </div>
+      </div>
+      <div class="content">
+        <img class="tinyimg" src="pics/newspaper.gif" alt="news">
+        <div class="text">
+          <h2>Finally updating this website! <span style="float: right;">Dec 26, 2023</span></h2>
+        </div>
+      </div>
+      <div class="content">
+        <img class="tinyimg" src="pics/newspaper.gif" alt="news">
+        <div class="text">
+          <h2>I need to make a better website...<span style="float: right;">Jan 11, 2023</span></h2>
+        </div>
+      </div>
 
-  <!-- Script to toggle music play/pause when image is clicked -->
-  <script>
-      function toggleMusic() {
-          var audio = document.getElementById("myAudio");
-  
-          if (audio.paused) {
-              audio.play();
-          } else {
-              audio.pause();
-          }
-      }
-  </script>
-  
-  </aside>
-  <footer>
-    <p>Made by <a href="mailto:datrisof@gmail.com">Sofia d'Atri</a></p>
-  </footer>
+      <div class="centered">
+        <img src="pics/puff.gif"><span>Made by <a href="mailto:datrisof@gmail.com">sofi</a></span>
+        <img src="pics/puff.gif">
+        <br>
+        <a href="https://pixelsea.neocities.org/" target="_blank"><img src="pics/pixelsea-badge.gif"></a>
+        <a href="https://textures.neocities.org/" target="_blank"><img src="pics/textown-badge.gif"></a>
+      </div>
+    </main>
+  </div>
+
+
+
 </body>
 
 </html>
