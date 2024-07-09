@@ -1,56 +1,64 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-  <title>Sofia's website</title>
-  <meta name="author" content="Sofia d'Atri">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link href="style.css" rel="stylesheet" type="text/css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404 - Page Not Found</title>
+  <style>
+    /* 404 Page Styles */
+    body {
+      background-color: #f4f4f4;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      color: #333;
+      background-image: url(pics/rainbowstr.gif);
+      background-size: repeat;
+    }
+
+    .container {
+      text-align: center;
+      padding: 20px;
+      background-color: #fff;
+      border: 2px solid #ccc;
+    }
+
+    h1 {
+      font-size: 3em;
+      margin: 0;
+    }
+
+    p {
+      font-size: 1.2em;
+      margin: 10px 0 20px;
+    }
+
+    .home-button {
+      display: inline-block;
+      padding: 10px 20px;
+      font-size: 1em;
+      color: #222;
+      background-color: #ccc;
+      text-decoration: none;
+      box-shadow: inset 2px 2px 5px #fff, inset -2px -2px 5px #aaa;
+    }
+
+    .home-button:hover {
+      background-color: #0056b3;
+    }
+  </style>
 </head>
 
 <body>
-  <nav>
-    <ul>
-      <li><a class="tooltip" href="https://cosmcif.github.io/">
-          <img class="btn" src="pics/house.gif" alt="Home">
-          <span class="tooltiptext">Home</span>
-        </a></li>
-      <li><a class="tooltip" href="https://cosmcif.github.io/projects.html">
-          <img class="btn" src="pics/star.gif" alt="Projects">
-          <span class="tooltiptext">Projects</span>
-        </a></li>
-      <li><a class="tooltip" href="https://cosmcif.github.io/cookbook/">
-          <img class="btn" src="pics/food.gif" alt="Cookbook">
-          <span class="tooltiptext">Cookbook</span>
-
-        </a></li>
-      <li><a class="tooltip" href="https://cosmcif.github.io/music/">
-          <img class="btn" src="pics/music.gif" alt="Music">
-          <span class="tooltiptext">Music</span>
-
-        </a></li>
-      <li><a class="tooltip" href="https://cosmcif.github.io/whoami/">
-          <img class="btn" src="pics/girl.gif" alt="About me">
-          <span class="tooltiptext">About me</span>
-        </a></li>
-    </ul>
-  </nav>
-
-
-  <header>
-    <h1>Sofia's website (˵ •̀ ᴗ •́ ˵ ) ✧ </h1>
-    <p></p>
-  </header>
-
-  <main>
-    <div style="height: 70%;">
-      <h1> Sorry, this page doesn't exist! <a href="https://cosmcif.github.io/">Go home.</a> </h1>
-    </div>
-  </main>
-
-
-  <footer>
-    <span>Made by <a href="mailto:datrisof@gmail.com">sofi</a></span>
-  </footer>
+  <div class="container">
+    <h1>404</h1>
+    <p>Sorry! This page doesn't exist :(</p>
+    <a href="index.html" class="home-button">Go Home</a>
+  </div>
 </body>
 
 </html>
