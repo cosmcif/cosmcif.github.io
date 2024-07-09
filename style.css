@@ -99,7 +99,7 @@ main h2 {
   height: 100px;
   object-fit: cover;
   margin-right: 10px;
-  border: 1px solid #ccc;
+  /* border: 1px solid #ccc; */
 }
 
 .content span img {
@@ -121,6 +121,13 @@ main h2 {
   font-size: 1em;
 }
 
+.tinyimg {
+  width: auto !important; 
+  height: auto !important;
+  max-width: none; /* Prevents scaling up */
+  max-height: none; /* Prevents scaling up */
+  border: none;
+}
 
 /* Responsive Design */
 @media (max-width: 768px) {
