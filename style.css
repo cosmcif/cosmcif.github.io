@@ -49,6 +49,9 @@ header h1 {
 
 }
 
+.date {
+  float: right;
+}
 /* Navigation Buttons */
 nav button {
   background-color: #ddd;
@@ -142,6 +145,7 @@ main h2 {
     width: auto;
     box-shadow: none;
     border: none;
+    font-size: 0.8em;
   }
 
   header h1 {
@@ -156,6 +160,11 @@ main h2 {
 
   main {
     text-align: left;
+  }
+
+  .date {
+    font-weight: 100;
+    font-size: 0.5em;
   }
 
 }
