@@ -93,6 +93,7 @@ main h2 {
   padding: 10px;
   background-color: #f9f9f9b0;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  flex-wrap: wrap;
   /* background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url(pics/Clear_Day_Bkgrd.jpg);
   background-size: repeat; */
 }
@@ -130,6 +131,11 @@ main h2 {
   max-width: none; /* Prevents scaling up */
   max-height: none; /* Prevents scaling up */
   border: none;
+}
+
+.break {
+  flex-basis: 100%;
+  height: 0;
 }
 
 /* Responsive Design */
