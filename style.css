@@ -56,12 +56,16 @@ header h1 {
 nav button {
   background-color: #ddd;
   border: 1px solid #bbb;
-  padding: 10px 20px;
+  /* padding: 10px 20px; */
+  padding: 5px 10px;
   margin: 5px;
   cursor: pointer;
   box-shadow: inset 2px 2px 0px #fff, inset -2px -2px 0px #aaa;
 }
 
+nav button img {
+  width: 30px;
+}
 nav button:hover {
   background-color: #ccc;
 }
