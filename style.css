@@ -38,10 +38,10 @@ header h1 {
   font-size: 2em;
 
   color: #fff;
-  text-shadow: 3px 3px 7px #000058, 
-              -3px -3px 7px #000058,
-              -3px 3px 7px #000058, 
-              3px -3px 7px #000058;
+  text-shadow: 3px 3px 7px #000058,
+    -3px -3px 7px #000058,
+    -3px 3px 7px #000058,
+    3px -3px 7px #000058;
 
   font-family: "Archivo Black", sans-serif;
   font-weight: 400;
@@ -52,6 +52,7 @@ header h1 {
 .date {
   float: right;
 }
+
 /* Navigation Buttons */
 nav button {
   background-color: #ddd;
@@ -66,6 +67,7 @@ nav button {
 nav button img {
   width: 30px;
 }
+
 nav button:hover {
   background-color: #ccc;
 }
@@ -130,10 +132,12 @@ main h2 {
 }
 
 .tinyimg {
-  width: auto !important; 
+  width: auto !important;
   height: auto !important;
-  max-width: none; /* Prevents scaling up */
-  max-height: none; /* Prevents scaling up */
+  max-width: none;
+  /* Prevents scaling up */
+  max-height: none;
+  /* Prevents scaling up */
   border: none;
 }
 
@@ -225,4 +229,11 @@ main h2 {
   justify-content: center;
   align-items: center;
   font-size: 100px;
+}
+
+
+.hlink {
+  color: transparent;
+  text-shadow: 0 0 0 black;
+  text-decoration: none;
 }
