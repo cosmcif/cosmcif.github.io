@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="icon/icon.png" type="image/png" />
     <!-- <script src="https://www.google.com/recaptcha/api.js" async defer></script> -->
-    <script crossorigin src="https://unpkg.com/@memorista/client-ui@2/dist/index.bundle.js"></script>
 </head>
 
 <body>
@@ -67,8 +66,22 @@
                 <img class="tinyimg" src="pics/reading-0001.gif" alt="book">
                 <div class="text">
                     <h2>Sign the guestbook!</h2>
-                    <x-memorista api-key="9ad05092-48ce-4b7c-900c-370c1db39897"></x-memorista>
                 </div>
+                <div class="break"></div>
+                <iframe width="100%">
+                    <html>
+
+                    <head>
+                        <script crossorigin
+                            src="https://unpkg.com/@memorista/client-ui@2/dist/index.bundle.js"></script>
+                    </head>
+
+                    <body>
+                        <x-memorista api-key="9ad05092-48ce-4b7c-900c-370c1db39897"></x-memorista>
+                    </body>
+
+                    </html>
+                </iframe>
             </div>
             <div class="content">
                 <div class="text">
