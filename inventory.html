@@ -7,7 +7,6 @@
     <title>who is Sofia</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="icon/icon.png" type="image/png" />
-    <!-- <script src="https://www.google.com/recaptcha/api.js" async defer></script> -->
 </head>
 
 <body>
@@ -48,19 +47,6 @@
                         The Free Will Diary</button>
 
                 </div>
-                <!-- <div class="break"></div>
-                <div class="text">
-                    <h2>Stats</h2>
-                    <ul>
-                        <li>S 2</li>
-                        <li>P 5</li>
-                        <li>E 2</li>
-                        <li>C 8</li>
-                        <li>I 8</li>
-                        <li>A 2</li>
-                        <li>L 8</li>
-                    </ul>
-                </div> -->
             </div>
             <div class="content">
                 <img class="tinyimg" src="pics/reading-0001.gif" alt="book">
@@ -68,38 +54,37 @@
                     <h2>Sign the guestbook!</h2>
                 </div>
                 <div class="break"></div>
-                <iframe width="100%">
-                    <html>
+                <div class="text">
+                    <form action="https://formspree.io/f/xldrgopv" method="POST">
+                        <label>
+                            <h3>email</h3>
+                            <input type="email" name="email" required>
+                        </label>
+                        <label>
+                            <h3>name</h3>
+                            <input type="text" name="name" required></textarea>
+                        </label>
+                        <label>
+                            <h3>message</h3>
+                            <input type="text" name="message" required></textarea>
+                        </label>
+                        <div class="break"></div>
+                        <button type="submit" >Send</button>
+                    </form>
 
-                    <head>
-                        <script crossorigin
-                            src="https://unpkg.com/@memorista/client-ui@2/dist/index.bundle.js"></script>
-                    </head>
-
-                    <body>
-                        <x-memorista api-key="9ad05092-48ce-4b7c-900c-370c1db39897"></x-memorista>
-                    </body>
-
-                    </html>
-                </iframe>
+                </div>
             </div>
             <div class="content">
+                <img class="tinyimg" src="pics/reading-0001.gif" alt="book">
                 <div class="text">
-                    <h2> </h2>
+                    <h2>The guestbook is hand-moderated, so your message will not appear until I have approved it
+                        personally.</h2>
                 </div>
                 <div class="break"></div>
                 <div class="text">
                     <p>empty ...</p>
                 </div>
             </div>
-            <!-- <div class="content">
-                <div class="text">
-                    <h2>Other stuff</h2>
-                    <p>I like cooking too. Have you checked out my cookbook yet?</p>
-                    <p>I also love fashion and makeup and long pretty nails. Virtual closet soon?</p>
-                </div>
-            </div> -->
-
             <div class="centered">
                 <img src="pics/puff.gif"><span>Made by <a href="mailto:datrisof@gmail.com">sofi</a></span>
                 <img src="pics/puff.gif">

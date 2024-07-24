@@ -82,6 +82,13 @@ header h1 {
   box-shadow: inset 2px 2px 0px #fff, inset -2px -2px 0px #aaa;
 } */
 
+form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
 nav button:hover, .content button:hover {
   background-color: #ccc;
 }
