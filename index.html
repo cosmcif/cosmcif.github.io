@@ -23,10 +23,50 @@
       </nav>
     </header>
     <main>
-      <div class="content" id="content-12">
+      <!-- <h2>Welcome traveler, stay here a while!</h2> -->
+      <!-- <div class="content" id="filter">
+        <img class="tinyimg" src="pics/search-glass-0458.gif" alt="filter">
+        <div class="text">
+          <h2>Filter articles by type</h2>
+        </div>
+      </div> -->
+      <input type="radio" id="articles" name="filter" />
+      <label for="articles"><span><img class="filterimg" src="pics/star.gif" alt="articles"></span>Thougts</label>
+
+      <input type="radio" id="life" name="filter" />
+      <label for="life"><span><img class="filterimg" src="pics/newspaper.gif" alt="life"></span>Life updates</label>
+
+      <input type="radio" id="site" name="filter" />
+      <label for="site"><span><img class="filterimg" src="pics/search-computer-0004.gif" alt="search"></span>Site
+        updates</label>
+
+        <input type="radio" id="cook" name="filter" />
+        <label for="cook"><span><img class="filterimg" src="pics/cook-0025.gif" alt="cook"></span>Cooking</label>
+  
+      <input type="radio" id="all" name="filter" />
+      <label for="all"><span><img class="filterimg" src="pics/book-question-0230.gif" alt="all"></span>All</label>
+
+
+      <!-- <div class="content" id="filter">
+        <img class="tinyimg" src="pics/search-glass-0458.gif" alt="filter">
+        <div class="text">
+          <h2>Filter articles by type</h2>
+        </div>
+        <div class="break"></div>
+        <div class="text">
+          <button><span><img class="tinyimg" src="pics/cook-0025.gif" alt="cook"></span>Cooking</button>
+          <button><span><img class="tinyimg" src="pics/newspaper.gif" alt="life"></span>Life updates</button>
+          <button><span><img class="tinyimg" src="pics/search-computer-0004.gif" alt="search"></span>Site
+            updates</button>
+          <button><span><img class="tinyimg" src="pics/star.gif" alt="articles"></span>Thougts</button>
+          <button><span><img class="tinyimg" src="pics/book-question-0230.gif" alt="all"></span>All</button>
+        </div>
+        <div class="break"></div>
+      </div> -->
+      <div class="content tile life" id="140824">
         <img class="tinyimg" src="pics/cake-0027.gif" alt="news">
         <div class="text">
-          <h2>It's my birthday! <a class="hlink" href="https://cosmcif.github.io/#content-12">🔗</a>
+          <h2>It's my birthday! <a class="hlink" href="https://cosmcif.github.io/#140824">🔗</a>
             <span class="date">August 14th, 2024</span>
           </h2>
           <p>I am now 22. I went to the seaside with my friends today. I was also dressed really pretty. They gifted me
@@ -36,10 +76,10 @@
           <p>That's all for now byeee<span><img class="tinyimg" src="pics/flower-0084.gif"></span></p>
         </div>
       </div>
-      <div class="content" id="content-11">
+      <div class="content tile articles" id="220724">
         <img class="tinyimg" src="pics/star.gif" alt="news">
         <div class="text">
-          <h2>Should a cook be just a healer? <a class="hlink" href="https://cosmcif.github.io/#content-11">🔗</a>
+          <h2>Should a cook be just a healer? <a class="hlink" href="https://cosmcif.github.io/#220724">🔗</a>
             <span class="date">July 22th, 2024</span>
           </h2>
           <p>This is an old thought I had a while ago.</p>
@@ -53,22 +93,22 @@
           <p>Probably it would even be funnier to have a team of just these three cooks: the warrior, the healer and
             the
             thief. Sounds balanced enough.</p>
-            <p>Byee, Sofia<span><img class="tinyimg" src="pics/flower-0084.gif"></span></p>
+          <p>Byee, Sofia<span><img class="tinyimg" src="pics/flower-0084.gif"></span></p>
         </div>
       </div>
-      <div class="content" id="content-10">
+      <div class="content tile life" id="150724">
         <img class="tinyimg" src="pics/newspaper.gif" alt="news">
         <div class="text">
-          <h2>I'm in Vienna! <a class="hlink" href="https://cosmcif.github.io/#content-10">🔗</a> <span
-              class="date">July 15th, 2024</span></h2>
+          <h2>I'm in Vienna! <a class="hlink" href="https://cosmcif.github.io/#150724">🔗</a> <span class="date">July
+              15th, 2024</span></h2>
           <p>I am currently in Vienna for an internship at the Institute of Science and Technology Austria. new
             adventures await.</p>
         </div>
       </div>
-      <div class="content" id="content-9">
+      <div class="content tile cook" id="1107242">
         <img class="tinyimg" src="pics/cook-0025.gif" alt="news">
         <div class="text">
-          <h2>Cookbook section on the website <a class="hlink" href="https://cosmcif.github.io/#content-9">🔗</a><span
+          <h2>Cookbook section on the website <a class="hlink" href="https://cosmcif.github.io/#1107242">🔗</a><span
               class="date">July 11th, 2024</span></h2>
           <p>I added the cookbook section to this website! </p>
           <p>
@@ -76,11 +116,10 @@
             access it.</p>
         </div>
       </div>
-      <!-- <h2>Welcome traveler, stay here a while!</h2> -->
-      <div class="content" id="content-8">
+      <div class="content tile articles" id="1107241">
         <img class="tinyimg" src="pics/star.gif" alt="news">
         <div class="text">
-          <h2>Free Will <a class="hlink" href="https://cosmcif.github.io/#content-8">🔗</a><span class="date">July
+          <h2>Free Will <a class="hlink" href="https://cosmcif.github.io/#1107241">🔗</a><span class="date">July
               11th,
               2024</span></h2>
           <p>A couple of weeks ago, I presented my Bachelor thesis. Given my previous projects, one would expect my
@@ -114,51 +153,56 @@
           <!-- There are so many things you could read on free will, try not to fall in the rabbit hole!  -->
         </div>
       </div>
-      <!-- <div class="content" id="content-7">
+      <div class="content tile site" id="090724">
         <img class="tinyimg" src="pics/search-computer-0004.gif" alt="news">
         <div class="text">
-          <h2>New website <a class="hlink" href="https://cosmcif.github.io/#content-7">🔗</a><span class="date">July
+          <h2>New website <a class="hlink" href="https://cosmcif.github.io/#090724">🔗</a><span class="date">July
               9th, 2024</span></h2>
           <p>
             Super excited that I'm finally updating this website!
           </p>
         </div>
       </div>
-      <div class="content" id="content-6">
+      <div class="content tile site" id="100524">
         <img class="tinyimg" src="pics/search-computer-0004.gif" alt="news">
         <div class="text">
           <h2>I'm remaking this website for the 100th time :p <a class="hlink"
-              href="https://cosmcif.github.io/#content-6">🔗</a><span class="date">May 10, 2024</span></h2>
+              href="https://cosmcif.github.io/#100524">🔗</a><span class="date">May 10, 2024</span></h2>
         </div>
-      </div> -->
-      <div class="content" id="content-5">
+      </div>
+      <div class="content tile cook" id="260324">
         <img class="tinyimg" src="pics/cook-0025.gif" alt="news">
         <div class="text">
-          <h2>Cookbook repo is now public, yay! <a class="hlink" href="https://cosmcif.github.io/#content-5">🔗</a><span
+          <h2>Cookbook repo is now public, yay! <a class="hlink" href="https://cosmcif.github.io/#260324">🔗</a><span
               class="date">Mar 26, 2024</span></h2>
           <p>Find it <a href="https://github.com/cosmcif/cookbook" target="_blank">here</a>.</p>
         </div>
       </div>
-      <!-- <div class="content" id="content-4">
+      <div class="content tile cook" id="250124">
         <img class="tinyimg" src="pics/cook-0025.gif" alt="news">
         <div class="text">
           <h2>I made a cookbook repo, it's just private for now. <a class="hlink"
-              href="https://cosmcif.github.io/#content-4">🔗</a><span class="date">Jan 25, 2024</span></h2>
-        </div>
-      </div> -->
-      <div class="content" id="content-3">
-        <img class="tinyimg" src="pics/newspaper.gif" alt="news">
-        <div class="text">
-          <h2>Fun fact: I just edited this page on emacs............ <a class="hlink"
-              href="https://cosmcif.github.io/#content-3">🔗</a><span class="date">Jan 7, 2024</span></h2>
+              href="https://cosmcif.github.io/#250124">🔗</a><span class="date">Jan 25, 2024</span></h2>
         </div>
       </div>
-
-      <div class="content" id="content-2">
+      <div class="content tile site" id="070124">
+        <img class="tinyimg" src="pics/search-computer-0004.gif" alt="news">
+        <div class="text">
+          <h2>Fun fact: I just edited this page on emacs............ <a class="hlink"
+              href="https://cosmcif.github.io/#070124">🔗</a><span class="date">Jan 7, 2024</span></h2>
+        </div>
+      </div>
+      <div class="content tile site" id="261223">
+        <img class="tinyimg" src="pics/search-computer-0004.gif" alt="news">
+        <div class="text">
+          <h2>Finally updating this website! <a class="hlink" href="https://cosmcif.github.io/#261223">🔗</a><span class="date">Dec 26, 2023</span></h2>
+        </div>
+      </div>
+      <div class="content tile articles" id="200723">
         <img class="tinyimg" src="pics/star.gif" alt="news">
         <div class="text">
           <h2>On the strategic withholding of affection. <a class="hlink"
-              href="https://cosmcif.github.io/#content-2">🔗</a> <span class="date">July 20th, 2023</span></h2>
+              href="https://cosmcif.github.io/#200723">🔗</a> <span class="date">July 20th, 2023</span></h2>
 
           <p>I have seen and heard of many instances of people withholding affection, usually after one or many bad
             experiences with dating or friendship.
@@ -199,18 +243,14 @@
           </p>
         </div>
       </div>
-      <!-- <div class="content" id="content-2">
+
+      
+      <div class="content site" id="110123">
         <img class="tinyimg" src="pics/search-computer-0004.gif" alt="news">
         <div class="text">
-          <h2>Finally updating this website! <a class="hlink" href="https://cosmcif.github.io/#content-2">🔗</a><span class="date">Dec 26, 2023</span></h2>
+          <h2>I need to make a better website... <a class="hlink" href="https://cosmcif.github.io/#110123">🔗</a><span class="date">Jan 11, 2023</span></h2>
         </div>
       </div>
-      <div class="content" id="content-1">
-        <img class="tinyimg" src="pics/search-computer-0004.gif" alt="news">
-        <div class="text">
-          <h2>I need to make a better website... <a class="hlink" href="https://cosmcif.github.io/#content-1">🔗</a><span class="date">Jan 11, 2023</span></h2>
-        </div>
-      </div> -->
 
       <div class="centered">
         <img src="pics/puff.gif"><span>Made by <a href="mailto:datrisof@gmail.com">sofi</a></span>
