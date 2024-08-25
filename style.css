@@ -170,6 +170,7 @@ main h2 {
   /* Prevents scaling up */
   border: none;
 }
+
 .filterimg {
   width: auto !important;
   height: 30px !important;
@@ -179,6 +180,7 @@ main h2 {
   /* Prevents scaling up */
   border: none;
 }
+
 .break {
   flex-basis: 100%;
   height: 0;
@@ -283,43 +285,28 @@ main h2 {
 
 input[type="radio"][id="cook"]:checked~.life,
 input[type="radio"][id="cook"]:checked~.site,
-input[type="radio"][id="cook"]:checked~.articles {
-  width: 0;
-  height: 0;
-  padding: 0;
-  margin: 0;
-  opacity: 0;
-  border: 0;
-  display: none;
-}
+input[type="radio"][id="cook"]:checked~.articles,
+input[type="radio"][id="cook"]:checked~.music,
 
-input[type="radio"][id="life"]:checked~.cook,
+input[type="radio"][id="music"]:checked~.life,
+input[type="radio"][id="music"]:checked~.site,
+input[type="radio"][id="music"]:checked~.articles,
+input[type="radio"][id="music"]:checked~.cook,
+
+input[type="radio"][id="life"]:checked~.music,
 input[type="radio"][id="life"]:checked~.articles,
-input[type="radio"][id="life"]:checked~.site {
-  width: 0;
-  height: 0;
-  padding: 0;
-  margin: 0;
-  opacity: 0;
-  border: 0;
-  display: none;
-}
+input[type="radio"][id="life"]:checked~.site,
+input[type="radio"][id="life"]:checked~.cook,
 
-input[type="radio"][id="site"]:checked~.cook,
+input[type="radio"][id="site"]:checked~.music,
 input[type="radio"][id="site"]:checked~.articles,
-input[type="radio"][id="site"]:checked~.life {
-  width: 0;
-  height: 0;
-  padding: 0;
-  margin: 0;
-  opacity: 0;
-  border: 0;
-  display: none;
-}
+input[type="radio"][id="site"]:checked~.life,
+input[type="radio"][id="site"]:checked~.cook,
 
-input[type="radio"][id="articles"]:checked~.cook,
+input[type="radio"][id="articles"]:checked~.music,
 input[type="radio"][id="articles"]:checked~.site,
-input[type="radio"][id="articles"]:checked~.life {
+input[type="radio"][id="articles"]:checked~.life,
+input[type="radio"][id="articles"]:checked~.cook {
   width: 0;
   height: 0;
   padding: 0;
