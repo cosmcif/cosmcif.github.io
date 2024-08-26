@@ -22,6 +22,11 @@ body {
 
 }
 
+.youtube {
+  width: 560px;
+  height: 315px;
+}
+
 /* Header */
 header {
   text-align: center;
@@ -224,6 +229,10 @@ main h2 {
 
   .filterimg {
     height: 20px !important;
+  }
+
+  .youtube {
+    width: 100%;
   }
 
 }
